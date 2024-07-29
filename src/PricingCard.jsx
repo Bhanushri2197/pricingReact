@@ -40,7 +40,7 @@ function PricingCard(props){
                         <div className="priceValue">${props.price}/month</div>
                         <ul className="subscribeList">
                             {pricing[props.plan].map((list,index) => {
-                               return  <li key={index} className={list.className}><span  className="symbolMark">{list.icon}</span>{list.name}</li>
+                               return  <li key={index}  className={list.className}><span  className="symbolMark">{list.icon}</span>{list.name}</li>
                              
                             })}
                         
