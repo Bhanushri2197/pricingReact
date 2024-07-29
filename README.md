@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project, i iterate the pricing card by react component and add data by passing object of array and list the data by using map function.
 
 Currently, two official plugins are available:
 
