@@ -1,0 +1,62 @@
+body{
+    display: block !important;
+}
+.heading{
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 60px;
+    font-size: 40px;
+}
+.pricingBlock{
+    background-image: linear-gradient(to bottom right, #38A2D7, #561139);
+    padding: 10px;
+}
+.pricingListBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pricingList{
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px #333;
+}
+.pricingPlan{
+    color: #bababa;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+.priceValue{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 30px;
+}
+.subscribeList{
+    list-style: none;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0.6px;
+}
+.subscribeList li{
+    margin: 5px 0;
+}
+.subscribeList li.disable{
+    color: #cbcbcb;
+}
+.subscribeBtn{
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #38A2D7, #561139);
+    color: #fff;
+    margin-top: 10px;
+}
+.symbolMark{
+    margin-right: 10px;
+}
